@@ -30,7 +30,7 @@ function App() {
 
           <div className='row mb-3'>
             <div className="col-sm-12">
-              <label htmlFor="Email" className='form-label'>Age (<span>optional</span>) </label>
+              <label htmlFor="Email" className='form-label'>Age (<span className='check-italic'>optional</span>) </label>
               <input type="email" name='name' className='form-control'/>
             </div>
           </div>
@@ -86,7 +86,7 @@ function App() {
 
           <div className='row mb-1 form-radio'>
             <div className="col-sm-12">
-              <label htmlFor="">What would you like to see improved? (<span>Check all that apply</span>)</label>
+              <label htmlFor="">What would you like to see improved? (<span className='check-italic'>Check all that apply</span>)</label>
             </div>
           </div>
           <div className='row mb-1 form-check'>
